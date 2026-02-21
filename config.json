@@ -1,0 +1,32 @@
+
+{
+  "platformName": "Agentic Platform Admin",
+  "environment": "PRODUCTION",
+  "refreshIntervals": [5000, 15000, 30000, 60000],
+  "categories": [
+    {
+      "id": "infra",
+      "name": "Infrastructure",
+      "services": [
+        { "id": "redis-01", "name": "Redis Commander", "type": "cache" },
+        { "id": "portainer-01", "name": "Portainer", "type": "orchestrator" },
+        { "id": "signoz", "name": "Signoz", "type": "Observability" }
+      ]
+    },
+    {
+      "id": "ai-layer",
+      "name": "AI & Agents",
+      "services": [
+        { "id": "litellm-01", "name": "LiteLLM Proxy", "type": "gateway" },
+        { "id": "optimus-01", "name": "OptimusPrime FB", "type": "agent" }
+      ]
+    },
+    {
+      "id": "db-layer",
+      "name": "Databases",
+      "services": [
+        { "id": "pg-01", "name": "PostgreSQL Main", "type": "relational" }
+      ]
+    }
+  ]
+}

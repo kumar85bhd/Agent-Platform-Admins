@@ -1,0 +1,5 @@
+{
+  "name": "Agentic Platform Admin",
+  "description": "A high-performance monitoring dashboard for tracking the health, performance, and resource utilization of infrastructure and AI agent layers.",
+  "requestFramePermissions": []
+}
